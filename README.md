@@ -2,6 +2,17 @@
 
 This project is a React-based web application that facilitates the conversion of Swagger API documentation into a Postman collection format.
 
+# Planned Modifications
+
+- [ ] Add option to include a prescript
+  - this may be based on pasted information so as to not disclose proprietary information
+- [ ] Fix some responsiveness issues with long endpoint names wrapping onto a new line in slightly smaller windows
+- [ ] Rather than just copying to the clipboard, implement logic to create a file that will be saved to the computer, bypassing the need to complete this step manually
+- [ ] Pull in paramters and set default values
+  - Replace the paramters in the URL
+  - Also be able to set some default values for objects based on types
+- [ ] Be able to compare two postman files
+
 # Features
 
 - Paste from Clipboard: Users can easily paste their Swagger JSON directly into the provided input.
